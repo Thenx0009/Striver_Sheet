@@ -1,5 +1,5 @@
 package Arrays;
-
+//Time Complexity ==> O(n)
 import java.util.Scanner;
 
 public class Check_array_is_sorted {
