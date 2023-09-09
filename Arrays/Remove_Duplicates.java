@@ -34,6 +34,6 @@ public class Remove_Duplicates {
 			System.out.print(arr[k]+" "); //This will print all unique elements
 		}
 		System.out.println();
-		System.out.print(i+1);
+		System.out.print(i+1);//This will print count of all unique elements
 	}
 }
