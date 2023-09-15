@@ -12,7 +12,7 @@ public class Intersection_of_Sorted_arrays {
 	
 	public static void Intersection(int arr[], int arr2[]) {
 		ArrayList<Integer> ll = new ArrayList<>();
-		int i=0;
+		int i=0;    
 		int j=0;
 		while(i<arr.length && j<arr2.length) {
 			if(arr[i]==arr2[j]) {
