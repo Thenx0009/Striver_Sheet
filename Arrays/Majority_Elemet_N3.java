@@ -10,6 +10,7 @@ public class Majority_Elemet_N3 {
 		int arr[] = {1,1,1,3,3,2,2,2};
 		System.out.println( majority(arr));
 	}
+	//Better Approach
 	public static List<Integer> majority(int arr[]){
 		ArrayList<Integer> ll = new ArrayList<>();
 		
