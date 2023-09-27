@@ -1,12 +1,13 @@
 package Arrays;
 import java.util.*;
 public class Print_All_Permutations {
-
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int arr[] = { 1, 2, 3 };
 		System.out.println(permute(arr));
 	}
+	//recursion Approach
 	public static List<List<Integer>> permute(int[] arr) {
 		List<List<Integer>>ans = new ArrayList<>();
 		Arrays.sort(arr);
