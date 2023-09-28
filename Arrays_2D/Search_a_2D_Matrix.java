@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_2D;
 
 public class Search_a_2D_Matrix {
 
