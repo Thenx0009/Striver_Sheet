@@ -5,7 +5,7 @@ public class UniqueNumber_of_Occurrences {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int arr[] = {1,2,2,1,1,3};
-		System.out.println(unique(arr));
+		System.out.println(unique(arr))
 	}
 	
 	public static boolean unique(int arr[]) {
