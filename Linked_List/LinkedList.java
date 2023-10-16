@@ -82,7 +82,7 @@ public class LinkedList {
 		}
 		return temp;
 	}
-	//aadd at Index
+	//add at Index
 	public void addatIndex(int k,int item) throws Exception {
 		if(k<0 || k>size) {
 			throw new Exception("Index out of Bound");
