@@ -21,6 +21,7 @@ public class Merge_Sort {
 		int ss[] = merge(arr,mid+1,high);//second sorted half
 		return merge_two_sorted_arrays(fs,ss);
 	}
+	
 	public static int[] merge_two_sorted_arrays(int arr1[],int arr2[]) {
 		int merge[] = new int[arr1.length+ arr2.length];
 		int i=0,j=0,k=0;
