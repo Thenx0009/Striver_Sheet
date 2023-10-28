@@ -47,7 +47,7 @@ public class Peak_Element {
 				}
 			}
 		}
-		return -1;
+		return -1
 	}
 
 }
